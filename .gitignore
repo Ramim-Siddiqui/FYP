@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoint written by the notebook (~113 MB; exceeds GitHub's 100 MB file limit)
+gnn_trained.pth
+
+# Scratch file written by generate_ast_clang() before every libclang parse.
+# It is overwritten on each run and carries no information of its own.
+temp.c
+
+# Raw dataset downloads (e.g. the Devign function.json), if you re-create output.xlsx
+data/raw/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
